@@ -31,9 +31,9 @@ runDemo_OneIlluminant_vdm.m and  runDemo_TwoIlluminant_vdm.m require the prelimi
 
 - Input data files (frames) are stored in directories vdm_TwoLights/Data/ and vdm_SingleLight/Data/ .
 - In order to use your own input data: 
-(i)  create a new directory (eg 'vdm_TwoLights/Data/mydir/') , 
-(ii) place the new frames files into that directory. Frame files should be ordered in consecutive order , and indexed from n+1 to n+N , for an N frames sequence (eg: my_file_1.jpg , my_file_2.jpg, my_file_2.jpg , ...) ; 
-(iii) edit runDemo_TwoIlluminants_vdm.m (or runDemo_OneIlluminants_vdm.m) and change the input directory name accordingly.
+--  create a new directory (eg 'vdm_TwoLights/Data/mydir/') , 
+--- place the new frames files into that directory. Frame files should be ordered in consecutive order , and indexed from n+1 to n+N , for an N frames sequence (eg: my_file_1.jpg , my_file_2.jpg, my_file_2.jpg , ...) ; 
+--- edit runDemo_TwoIlluminants_vdm.m (or runDemo_OneIlluminants_vdm.m) and change the input directory name accordingly.
 
 
 <p>
