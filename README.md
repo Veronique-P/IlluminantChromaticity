@@ -24,17 +24,17 @@ Parameters of the approach are defined and instantiated in ./vdm_TwoLights/vdm_i
 #### Preprequisit
  -----------
 
-runDemo_OneIlluminant_vdm.m and  runDemo_TwoIlluminant_vdm.m require the preliminary installation of SIFTFlow and/or OpticalFlow as implemented by Liu's and al. You need to install the mex files from the vdm_Extern/OF   directory and vdm_Extern/SIFTflow directory, following instructions given by the readme.txt's . (equivalently you can directly download files from <a href="http://people.csail.mit.edu/celiu/OpticalFlow/" > here </a> and   <href="people.csail.mit.edu/celiu/SIFTflow/"> there </a>‎  )
+runDemo_OneIlluminant_vdm.m and  runDemo_TwoIlluminant_vdm.m require the preliminary installation of SIFTFlow and/or OpticalFlow as implemented by Liu's and al. You need to install the mex files from the vdm_Extern/OF   directory and vdm_Extern/SIFTflow directory, following instructions given by the readme.txt's . (equivalently you can directly download files from <a href="http://people.csail.mit.edu/celiu/OpticalFlow/" > here </a> and   <a href="people.csail.mit.edu/celiu/SIFTflow/"> there </a>).
 
 #### Data format
 -------------
-<p>
+
 - Input data files (frames) are stored in directories vdm_TwoLights/Data/ and vdm_SingleLight/Data/ .
 - In order to use your own input data: 
 (i)  create a new directory (eg 'vdm_TwoLights/Data/mydir/') , 
 (ii) place the new frames files into that directory. Frame files should be ordered in consecutive order , and indexed from n+1 to n+N , for an N frames sequence (eg: my_file_1.jpg , my_file_2.jpg, my_file_2.jpg , ...) ; 
 (iii) edit runDemo_TwoIlluminants_vdm.m (or runDemo_OneIlluminants_vdm.m) and change the input directory name accordingly.
-</p>
+
 
 <p>
 Note 1:  input frame file format (.bmp, .jpg, .tif) should be specified in vdm_init_para_prepro.m (under ./vdm_TwoLights/ or /vdm_SingleLight/). Defaut value : '.bmp'. 
