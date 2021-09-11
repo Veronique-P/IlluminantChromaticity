@@ -5,7 +5,7 @@
 <p>The code is implemented in Matlab. Project page <a href='https://www.cs.huji.ac.il/labs/cglab/projects/illumest/Illuminant/'> here </a>.</p>
 
 
-#### Matlab code 
+### Usage 
  ----------
 ##### run
 ```
@@ -25,12 +25,12 @@ matlab runDemo_TwoIlluminants_vdm.m
 Edit `runDemo_TwoIlluminant_vdm.m` to modify the input data. 
 Parameters of the approach are defined and instantiated in ./vdm_TwoLights/`vdm_init_para_2ill.m` and ./vdm_TwoLights/`vdm_init_para_prepro.m` . 
 
-#### Preprequisit
+### Preprequisit
  -----------
 
 `runDemo_OneIlluminant_vdm.m` and  `runDemo_TwoIlluminant_vdm.m` require the preliminary installation of _SIFTFlow_ and/or _OpticalFlow_ as implemented by <a href="http://people.csail.mit.edu/celiu/"> Ce Liu's and al</a> . You need to install the mex files from the `./vdm_Extern/OF`   directory and `./vdm_Extern/SIFTflow` directory, following instructions given by the `readme.txt`'s . (equivalently you can directly download files from <a href="http://people.csail.mit.edu/celiu/OpticalFlow/" > here </a> and   <a href="people.csail.mit.edu/celiu/SIFTflow/"> there</a>).
 
-#### Data format
+### Data format
 -------------
 
 - Input data files (frames) are stored in directories `./vdm_TwoLights/Data/` and `./vdm_SingleLight/Data/` .
