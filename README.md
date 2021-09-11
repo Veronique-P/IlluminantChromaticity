@@ -40,9 +40,19 @@ Parameters of the approach are defined and instantiated in ./vdm_TwoLights/`vdm_
   - edit `runDemo_TwoIlluminants_vdm.m` (or `runDemo_OneIlluminants_vdm.m`) and change the input directory name accordingly.
 
 
-
 > Note 1:  input frame file format (.bmp, .jpg, .tif) should be specified in `vdm_init_para_prepro.m` (under `./vdm_TwoLights/` or `./vdm_SingleLight/`). Defaut value: '.bmp'. 
-
 
 > Note 2 : if the first frame index does not start at 1, edit `./vdm_TwoLights/vdm_init_para_prepro.m` (or `./vdm_SingleLight/vdm_init_para_prepro.m`) and modify parameter _'init_count'_ appropriately (should be set to init_count=0 if index files starts at 1). Default value: 0.  
 
+
+### Citation
+-----------
+If you use this code, please cite it:
+```
+@InProceedings{vdm_iccv2013,
+	author  = {V. Prinet and D. Lischinski and M. Werman},
+	title   = {Illuminant Chromaticity from Image Sequences},
+	journal = {International Conference on Computer Vision (ICCV)},
+	year    = {2013},
+	month   = {December}}
+```
